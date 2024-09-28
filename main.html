@@ -8,10 +8,17 @@
 <body>
 
   <div class="wrapper">
-    <video class="flex viewer" width="765" height="430" src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" controls></video>
+    <video class="flex player__video" width="765" height="430" src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" controls></video>
+    
+    <!-- Add a play/pause toggle button -->
+    <button class="toggle">❚ ❚</button>
+
     <div class="speed">
       <div class="speed-bar">1×</div>
     </div>
+
+    <!-- Add a rewind button to rewind 10 seconds -->
+    <button class="rewind">« 10s</button>
   </div>
 
 <script src="./script.js"></script>
